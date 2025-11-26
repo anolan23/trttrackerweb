@@ -11,7 +11,7 @@ export default function Home() {
       className={`${inter.className} flex min-h-screen items-center justify-center bg-white font-sans dark:bg-zinc-950`}
     >
       <main className="flex flex-col items-center gap-8 p-8 text-center">
-        <h1 className="text-4xl font-semibold text-zinc-900 dark:text-zinc-50">
+        <h1 className="text-4xl font-bold text-zinc-900 dark:text-zinc-50">
           TRT Tracker Support
         </h1>
         <div className="flex flex-col gap-4">
