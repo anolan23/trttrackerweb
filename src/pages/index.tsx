@@ -1,14 +1,14 @@
-import { Geist } from "next/font/google";
+import { Inter } from "next/font/google";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
 export default function Home() {
   return (
     <div
-      className={`${geistSans.className} flex min-h-screen items-center justify-center bg-white font-sans dark:bg-zinc-950`}
+      className={`${inter.className} flex min-h-screen items-center justify-center bg-white font-sans dark:bg-zinc-950`}
     >
       <main className="flex flex-col items-center gap-8 p-8 text-center">
         <h1 className="text-4xl font-semibold text-zinc-900 dark:text-zinc-50">
@@ -19,12 +19,12 @@ export default function Home() {
             Need help? Have questions or feedback?
           </p>
           <p className="text-lg text-zinc-900 dark:text-zinc-50">
-            Contact us at:{" "}
+            Contact us at:{' '}
             <a
               href="mailto:support@trttracker.com"
-              className="font-medium text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
+              className="font-medium text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300"
             >
-              support@trttracker.com
+              support@trttracker.app
             </a>
           </p>
         </div>
