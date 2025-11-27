@@ -21,7 +21,7 @@ export default function Home() {
           <p className="text-lg text-zinc-900 dark:text-zinc-50">
             Contact us at:{' '}
             <a
-              href="mailto:support@trttracker.com"
+              href="mailto:support@trttracker.app"
               className="font-medium text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300"
             >
               support@trttracker.app
